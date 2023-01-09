@@ -1,0 +1,112 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+ html {
+     --card-color: #cacaca;
+     --text-color: #e1e1e1;
+ }
+
+ h2 {
+     color: rgb(68, 68, 68);
+     text-align: center;
+     margin: 10px;
+ }
+
+ h3 {
+     color: #444;
+     text-align: center;
+     margin: 10px;
+ }
+
+ .flex-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+ 
+
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
+
+ label {
+     padding-left: 8px;
+     font-size: 17px;
+     color: #444;
+     margin: 10px;
+ }
+
+ form {
+     display: block;
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .meter_reading {
+     display: block;
+     width: 260px;
+     height: 30px;
+     padding-left: 10px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+     margin: 10px auto;
+     font-size: 20px;
+     border-radius: 20px;
+     background: rgba(0, 0, 0, 0.05);
+     border: none;
+     transition: background 0.5s;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+ }
+
+ input:hover {
+     background: #d8e1f3;
+     transition: background 0.4s;
+ }
+
+ #send_button {
+     width: 180px;
+     height: 40px;
+     position: relative;
+     display: block;
+     margin: 10px auto;
+     border-radius: 10px;
+     border: none;
+     background: #d7f0e2;
+     color: #444;
+     font-size: 20px;
+     transition: background 0.4s;
+     cursor: pointer;
+ }
+
+ #send_button:hover {
+     background: #bcefbf;
+     transition: background 0.4s;
+ }
+
+ #clear_button {
+     width: 180px;
+     height: 40px;
+     position: relative;
+     display: block;
+     margin: 10px auto;
+     border-radius: 10px;
+     border: none;
+     background: #eedddb;
+     color: #444;
+     font-size: 20px;
+     transition: background 0.4s;
+     cursor: pointer;
+
+ }
+
+ #clear_button:hover {
+     background: #efc8bc;
+     transition: background 0.4s;
+ }
